@@ -1,0 +1,252 @@
+{
+  "items": [
+    {
+      "id": "apertium",
+      "name": "Apertium APy (免密钥)",
+      "description": "免密钥（公共实例 https://apertium.org/apy/ ）。语言对受实例已安装 pairs 限制",
+      "version": "1.0.0",
+      "fileName": "apertium.js",
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/wenxue263/translate@main/market/providers/apertium.js"
+    },
+    {
+      "id": "baidu",
+      "name": "百度翻译（官方 API）",
+      "description": "BAIDU_APP_ID=翻译开放平台应用 APP ID；BAIDU_APP_KEY=同一页「密钥」（勿用智能云 AK/SK）。文档：https://api.fanyi.baidu.com/doc/21",
+      "version": "1.0.0",
+      "fileName": "baidu.js",
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/wenxue263/translate@main/market/providers/baidu.js"
+    },
+    {
+      "id": "caiyun",
+      "name": "彩云小译",
+      "description": "需 Token：https://docs.caiyunapp.com/lingocloud-api/index.html （trans_type 仅中英日等）",
+      "version": "1.0.0",
+      "fileName": "caiyun.js",
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/wenxue263/translate@main/market/providers/caiyun.js"
+    },
+    {
+      "id": "deepl",
+      "name": "DeepL",
+      "description": "需要密钥（隐藏）。设置 DEEPL_AUTH_KEY；可选 DEEPL_PRO=true 使用 pro 端点",
+      "version": "1.0.0",
+      "fileName": "deepl.js",
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/wenxue263/translate@main/market/providers/deepl.js"
+    },
+    {
+      "id": "deeplx",
+      "name": "DeepLX (proxy/serverless)",
+      "description": "免 key（需自建实例）。设置 DEEPLX_URL；部署说明见仓库 providers/DEEPLX.md 或 https://github.com/OwO-Network/DeepLX",
+      "version": "1.0.0",
+      "fileName": "deeplx.js",
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/wenxue263/translate@main/market/providers/deeplx.js"
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "description": "官方 Chat Completions：https://api.deepseek.com （需 DEEPSEEK_API_KEY，可选 DEEPSEEK_MODEL）",
+      "version": "1.0.0",
+      "fileName": "deepseek.js",
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/wenxue263/translate@main/market/providers/deepseek.js"
+    },
+    {
+      "id": "deepseek-free-proxy",
+      "name": "DeepSeek Free Proxy (experimental)",
+      "description": "实验接口：需配置代理地址，通常还需要用户 token。稳定性/合规性风险较高",
+      "version": "1.0.0",
+      "fileName": "deepseek_free_proxy.js",
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/wenxue263/translate@main/market/providers/deepseek_free_proxy.js"
+    },
+    {
+      "id": "edge",
+      "name": "Edge (免密钥)",
+      "description": "微软 Edge 内置翻译，免密钥，质量稳定",
+      "version": "1.0.0",
+      "fileName": "edge.js",
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/wenxue263/translate@main/market/providers/edge.js"
+    },
+    {
+      "id": "glm-4-flash",
+      "name": "GLM-4 Flash",
+      "description": "需要 BIGMODEL_API_KEY（可选 BIGMODEL_MODEL）https://open.bigmodel.cn/dev/api",
+      "version": "1.0.0",
+      "fileName": "glm4_flash.js",
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/wenxue263/translate@main/market/providers/glm4_flash.js"
+    },
+    {
+      "id": "glm-free-proxy",
+      "name": "GLM Free Proxy (experimental)",
+      "description": "实验接口：需配置代理地址，通常还需要 refresh_token/token。稳定性/合规性风险较高",
+      "version": "1.0.0",
+      "fileName": "glm_free_proxy.js",
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/wenxue263/translate@main/market/providers/glm_free_proxy.js"
+    },
+    {
+      "id": "google",
+      "name": "Google (免密钥)",
+      "description": "无需密钥，适合快速使用",
+      "version": "1.0.0",
+      "fileName": "google.js",
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/wenxue263/translate@main/market/providers/google.js"
+    },
+    {
+      "id": "google-clients5",
+      "name": "Google (免密钥)",
+      "description": "免 key（备用 Google 端点，可能偶发 403）",
+      "version": "1.0.0",
+      "fileName": "google_clients5.js",
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/wenxue263/translate@main/market/providers/google_clients5.js"
+    },
+    {
+      "id": "google-cloud",
+      "name": "Google Cloud Translation",
+      "description": "需要 GOOGLE_CLOUD_API_KEY（v2 REST）",
+      "version": "1.0.0",
+      "fileName": "google_cloud.js",
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/wenxue263/translate@main/market/providers/google_cloud.js"
+    },
+    {
+      "id": "ibm-watson",
+      "name": "IBM Watson Language Translator",
+      "description": "需要 IBM_WATSON_APIKEY / IBM_WATSON_URL",
+      "version": "1.0.0",
+      "fileName": "ibm_watson.js",
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/wenxue263/translate@main/market/providers/ibm_watson.js"
+    },
+    {
+      "id": "lex-bing",
+      "name": "Bing (免密钥)",
+      "description": "lex-app 同款：edge.microsoft.com 取 Bearer，再调 Cognitive Translator",
+      "version": "1.0.0",
+      "fileName": "lex_bing.js",
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/wenxue263/translate@main/market/providers/lex_bing.js"
+    },
+    {
+      "id": "lex-deepl-free",
+      "name": "DeepL Free (免密钥)",
+      "description": "www2.deepl.com/jsonrpc（lex-app 同款，不稳定）",
+      "version": "1.0.0",
+      "fileName": "lex_deepl_free.js",
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/wenxue263/translate@main/market/providers/lex_deepl_free.js"
+    },
+    {
+      "id": "lex-volcengine-free",
+      "name": "火山翻译 (免密钥)",
+      "description": "translate.volcengine.com/crx（lex-app 同款）",
+      "version": "1.0.0",
+      "fileName": "lex_volcengine_free.js",
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/wenxue263/translate@main/market/providers/lex_volcengine_free.js"
+    },
+    {
+      "id": "lex-yandex-web",
+      "name": "Yandex Web (免密钥)",
+      "description": "translate.yandex.net/api/v1/tr.json（已停用，建议改用其他接口）",
+      "version": "1.0.0",
+      "fileName": "lex_yandex_web.js",
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/wenxue263/translate@main/market/providers/lex_yandex_web.js"
+    },
+    {
+      "id": "libretranslate",
+      "name": "LibreTranslate (免密钥)",
+      "description": "免密钥（可用公共实例或自建）。可通过 LIBRETRANSLATE_URL 指定服务地址",
+      "version": "1.0.0",
+      "fileName": "libretranslate.js",
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/wenxue263/translate@main/market/providers/libretranslate.js"
+    },
+    {
+      "id": "libretranslate-de",
+      "name": "LibreTranslate.de",
+      "description": "固定 libretranslate.de；若站点要求密钥可设置 LIBRETRANSLATE_DE_API_KEY（与可改地址的 libretranslate 不同，本项无内置 Google 回退）",
+      "version": "1.0.0",
+      "fileName": "libretranslate_de.js",
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/wenxue263/translate@main/market/providers/libretranslate_de.js"
+    },
+    {
+      "id": "lingva",
+      "name": "Lingva Translate (免密钥)",
+      "description": "免密钥（公开实例/自建）。可通过 LINGVA_URL 指定实例地址（如 https://lingva.ml）",
+      "version": "1.0.0",
+      "fileName": "lingva.js",
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/wenxue263/translate@main/market/providers/lingva.js"
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft Translator",
+      "description": "需要密钥（隐藏）。设置 MICROSOFT_TRANSLATOR_KEY / MICROSOFT_TRANSLATOR_REGION 后可用",
+      "version": "1.0.0",
+      "fileName": "microsoft.js",
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/wenxue263/translate@main/market/providers/microsoft.js"
+    },
+    {
+      "id": "modernmt",
+      "name": "ModernMT",
+      "description": "需要 MODERNMT_API_KEY",
+      "version": "1.0.0",
+      "fileName": "modernmt.js",
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/wenxue263/translate@main/market/providers/modernmt.js"
+    },
+    {
+      "id": "mymemory",
+      "name": "MyMemory (免密钥)",
+      "description": "mymemory.translated.net 免费接口，每日 500 词限额",
+      "version": "1.0.0",
+      "fileName": "mymemory.js",
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/wenxue263/translate@main/market/providers/mymemory.js"
+    },
+    {
+      "id": "niutrans",
+      "name": "小牛翻译",
+      "description": "需 API Key：https://niutrans.com/",
+      "version": "1.0.0",
+      "fileName": "niutrans.js",
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/wenxue263/translate@main/market/providers/niutrans.js"
+    },
+    {
+      "id": "papago",
+      "name": "Naver Papago (official)",
+      "description": "需要 PAPAGO_CLIENT_ID / PAPAGO_CLIENT_SECRET",
+      "version": "1.0.0",
+      "fileName": "papago.js",
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/wenxue263/translate@main/market/providers/papago.js"
+    },
+    {
+      "id": "systran",
+      "name": "SYSTRAN Translate API",
+      "description": "需要 SYSTRAN_API_KEY",
+      "version": "1.0.0",
+      "fileName": "systran.js",
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/wenxue263/translate@main/market/providers/systran.js"
+    },
+    {
+      "id": "tencent",
+      "name": "Tencent Cloud TMT",
+      "description": "需要 SecretId/SecretKey。按 TC3-HMAC-SHA256 签名请求 TextTranslate",
+      "version": "1.0.0",
+      "fileName": "tencent.js",
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/wenxue263/translate@main/market/providers/tencent.js"
+    },
+    {
+      "id": "volcengine",
+      "name": "Volcengine Translate",
+      "description": "需要 AK/SK（火山引擎 OpenAPI 签名）",
+      "version": "1.0.0",
+      "fileName": "volcengine.js",
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/wenxue263/translate@main/market/providers/volcengine.js"
+    },
+    {
+      "id": "yandex",
+      "name": "Yandex Translate",
+      "description": "需要密钥/IAM（隐藏）。设置 YANDEX_API_KEY 或 YANDEX_IAM_TOKEN，并设置 YANDEX_FOLDER_ID",
+      "version": "1.0.0",
+      "fileName": "yandex.js",
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/wenxue263/translate@main/market/providers/yandex.js"
+    },
+    {
+      "id": "youdao",
+      "name": "有道翻译",
+      "description": "需应用 ID + 应用密钥（v3 签名）：https://ai.youdao.com/",
+      "version": "1.0.0",
+      "fileName": "youdao.js",
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/wenxue263/translate@main/market/providers/youdao.js"
+    }
+  ]
+}
