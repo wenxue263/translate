@@ -1,6 +1,6 @@
 @echo off
 setlocal
-chcp 65001 >nul
+chcp 936 >nul
 
 set "SCRIPT_DIR=%~dp0"
 set "PS1=%SCRIPT_DIR%push-repo.ps1"

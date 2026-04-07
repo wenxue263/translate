@@ -3,8 +3,6 @@ param(
 )
 
 $ErrorActionPreference = "Stop"
-$OutputEncoding = [System.Text.UTF8Encoding]::new($false)
-[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
 
 $repoRoot = $PSScriptRoot
 
