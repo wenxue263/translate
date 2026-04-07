@@ -7,20 +7,20 @@ $ErrorActionPreference = "Stop"
 $repoRoot = $PSScriptRoot
 
 if (-not (Test-Path -LiteralPath $repoRoot)) {
-  throw "仓库目录不存在: $repoRoot"
+  throw "Repository path not found: $repoRoot"
 }
 
 Push-Location $repoRoot
 try {
   if (-not (Test-Path -LiteralPath ".git")) {
-    throw "当前目录不是 Git 仓库: $repoRoot"
+    throw "Current path is not a Git repository: $repoRoot"
   }
 
   $statusShort = git status --short
   if (-not $statusShort) {
-    Write-Host "没有可提交的变更，跳过提交，直接推送..."
+    Write-Host "No changes to commit, skip commit and push directly..."
     git push origin main
-    Write-Host "已完成 push -> origin/main"
+    Write-Host "Push completed -> origin/main"
     exit 0
   }
 
@@ -32,7 +32,7 @@ try {
   git commit -m $Message
   git push origin main
 
-  Write-Host "提交并推送完成 -> origin/main"
+  Write-Host "Commit and push completed -> origin/main"
 } finally {
   Pop-Location
 }

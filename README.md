@@ -22,4 +22,3 @@
 - 修改 `market/providers/*.js` 后，同步更新 `market/providers.json` 中对应条目
 - 发布新版本时，更新 `updates/translate.json` 的 `version`、`download`、`content`
 - 如需避免 CDN 缓存延迟，可将 `@main` 改为固定 tag/commit
-
